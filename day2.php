@@ -7,7 +7,11 @@ $ville = "Meknes";
 
 
 echo "$nom";
+
+echo "<br>";
 echo $age;
+
+echo "<br>";
 echo $ville;
 
 $numbrepostive = 90;
