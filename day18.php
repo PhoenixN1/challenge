@@ -11,8 +11,9 @@ foreach ($server_keys as $key) {
 echo "</table>";
 
 echo "<h2>$_REQUEST</h2>";
-echo "<form method='post' action='?name=Ali&city=Casablanca'>";
+echo "<form method='post''>";
 echo "Name: <input type='text' name='name' value='Ali'> ";
+echo "city : <input type = 'text' name= 'city'>";
 echo "Age: <input type='text' name='age' value='25'> ";
 echo "<input type='submit' value='Send'>";
 echo "</form>";
